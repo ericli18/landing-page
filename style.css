@@ -9,7 +9,15 @@ body {
 
 .header {
     display: flex;
-    background-color: aliceblue;
-    border: 4px solid black;
+    background-color: #1f2937;
+    flex-flow: column wrap;
+    padding: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
     margin: 0;
+    display: flex;
+    gap: 16px;
 }
