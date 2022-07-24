@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
   height: 100vh;
   margin: 0;
   overflow: hidden;
-  font-family: Roboto, sans-serif;
 }
 
 .header {
@@ -14,10 +17,44 @@ body {
     padding: 16px;
 }
 
+h2{
+    font-size: 24px;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.header-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    color: #F9FAF8;
+    gap: 32px;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    color: #F9FAF8;
+}
+
+.modal {
+    width: 300px;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
     gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
 }
