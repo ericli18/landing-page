@@ -10,3 +10,20 @@ body {
   overflow: hidden;
 }
 
+/*Link styling*/
+
+.hero-info, .header-links {
+    color: #e5e7eb;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.header-links {
+    text-decoration: none;
+}
+
+/*ENTIRE HEADER LAYOUT*/
+
