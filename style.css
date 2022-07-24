@@ -21,6 +21,10 @@ h2{
     font-size: 24px;
 }
 
+.hero-second, a {
+    font-size: 18px;
+}
+
 .hero {
     font-size: 48px;
     font-weight: bolder;
@@ -40,10 +44,6 @@ h2{
     justify-content: center;
     gap: 16px;
     color: #F9FAF8;
-}
-
-.modal {
-    width: 300px;
 }
 
 ul {
