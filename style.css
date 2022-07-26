@@ -10,7 +10,6 @@ html {
 body {
   height: 100vh;
   margin: 0;
-  overflow: hidden;
 }
 
 /*Link styling*/
@@ -102,6 +101,8 @@ ul {
 }
 
 /*ENTIRE STOREFRONT STYLING*/
+
+/*storefront layout*/
 .shop {
     display: flex;
     flex-flow: column;
@@ -110,5 +111,16 @@ ul {
 
 .products {
     display: flex;
-    gap: 16px;
+    gap: 52px;
+    justify-content: center;
+}
+
+.block {
+    max-width: 200px;
+    text-align: center;
+}
+
+.block img {
+    border-radius: 8px;
+    border: 2px solid #3882f6;
 }
