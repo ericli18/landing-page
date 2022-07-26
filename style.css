@@ -108,3 +108,7 @@ ul {
     align-items: center;
 }
 
+.products {
+    display: flex;
+    gap: 16px;
+}
