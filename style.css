@@ -100,3 +100,11 @@ ul {
     font-size: 16px;
     font-weight: bold;
 }
+
+/*ENTIRE STOREFRONT STYLING*/
+.shop {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
