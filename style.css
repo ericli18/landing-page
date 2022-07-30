@@ -138,3 +138,26 @@ ul {
     font-weight: bolder;
     color: #1f2937;
 }
+
+/*QUOTE STYLING*/
+/*Quote coloring*/
+.quote {
+    background-color: #e5e7eb;
+    padding: 32px 256px;
+}
+
+/*layout*/
+.testimonial {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    margin: 16px;
+}
+
+.author {
+    text-align: end;
+    font-size: 18px;
+    font-weight: bold;
+}
+
