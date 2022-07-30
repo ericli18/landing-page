@@ -107,7 +107,7 @@ ul {
     display: flex;
     flex-flow: column;
     align-items: center;
-    margin: 32px 0;
+    margin: 32px 0 64px;
     gap: 52px;
 }
 
